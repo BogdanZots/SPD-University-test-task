@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile {
+    margin: 5px auto;
+    max-width: 480px;
+    -webkit-box-shadow: 0px 2px 43px 13px rgb(0 0 0 / 32%);
+    box-shadow: 0px 2px 43px 13px rgb(0 0 0 / 32%);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+
+.profile__top {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    min-height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.profile__user-img,
+.profile__user-circle {
+    border-radius: 50%;
+}
+
+.profile__user {
+    background-color: #4ab1f2;
+    position: relative;
+    height: 13px;
+    width: 100%;
+}
+
+.profile__user-circle {
+    border: 12px solid #5cc0ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* profile bottom  */
+
+.profile__bottom {
+    background-color: #dde1e2;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    min-height: 285px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.profile__info {
+    padding-top: 70px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #8a878b;
+    max-width: 356px;
+    width: 100%;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.profile__follow {
+    margin-top: 15px;
+    text-align: center;
+    background-color: #2589cc;
+    width: 100%;
+    max-width: 155px;
+    padding: 18px 10px;
+    text-align: center;
+    border-radius: 6px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    cursor: pointer;
+    color: white;
+}
+
+.profile__follow-btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-following {
+    background-color: #03d703;
+}

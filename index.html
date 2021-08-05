@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="profile">
+        <div class="profile__inner">
+            <div class="profile__top">
+                <div class="profile__user">
+                    <div class="profile__user-circle">
+                        <img src="images/avatar.jpg" alt="user-img" class="profile__user-img">
+                    </div>
+                </div>
+            </div>
+            <div class="profile__bottom">
+                <div class="profile__info">
+                    <div class="profile__tweets">
+                        <p class="profile__tweets-count">777</p>
+                        <p class="profile__tweets-text">tweets</p>
+                    </div>
+                    <div class="profile__followers">
+                        <p class="profile__followers-count" id="current-followers-amount"></p>
+                        <p class="profile__followers-text">followers</p>
+                    </div>
+                </div>
+                <div class="profile__follow" id="follow-btn">
+                    <button class="profile__follow-btn">
+                        follow
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
